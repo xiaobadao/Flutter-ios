@@ -12,7 +12,6 @@
 		C40E53DF237D2875001DAD05 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E53DE237D2874001DAD05 /* TargetViewController.swift */; };
 		C40E53E1237D287D001DAD05 /* TargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40E53E0237D287D001DAD05 /* TargetViewController.xib */; };
 		C439056A23793EC3000DD984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439056923793EC3000DD984 /* AppDelegate.swift */; };
-		C439056C23793EC3000DD984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439056B23793EC3000DD984 /* SceneDelegate.swift */; };
 		C439056E23793EC3000DD984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439056D23793EC3000DD984 /* ViewController.swift */; };
 		C439057123793EC3000DD984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C439056F23793EC3000DD984 /* Main.storyboard */; };
 		C439057323793EC5000DD984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C439057223793EC5000DD984 /* Assets.xcassets */; };
@@ -27,7 +26,6 @@
 		C40E53E0237D287D001DAD05 /* TargetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetViewController.xib; sourceTree = "<group>"; };
 		C439056623793EC3000DD984 /* Flutter_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flutter_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C439056923793EC3000DD984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C439056B23793EC3000DD984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C439056D23793EC3000DD984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C439057023793EC3000DD984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C439057223793EC5000DD984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				C439056923793EC3000DD984 /* AppDelegate.swift */,
-				C439056B23793EC3000DD984 /* SceneDelegate.swift */,
 				C439056D23793EC3000DD984 /* ViewController.swift */,
 				C40E53DC237CE4E2001DAD05 /* ViewController.xib */,
 				C40E53DE237D2874001DAD05 /* TargetViewController.swift */,
@@ -236,7 +233,6 @@
 			files = (
 				C439056E23793EC3000DD984 /* ViewController.swift in Sources */,
 				C439056A23793EC3000DD984 /* AppDelegate.swift in Sources */,
-				C439056C23793EC3000DD984 /* SceneDelegate.swift in Sources */,
 				C40E53DF237D2875001DAD05 /* TargetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,11 +382,12 @@
 				DEVELOPMENT_TEAM = B9S5A4T8AP;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Flutter_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.saintpartner.Boss.Flutter-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saintpartner.Boss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -406,11 +403,12 @@
 				DEVELOPMENT_TEAM = B9S5A4T8AP;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Flutter_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.saintpartner.Boss.Flutter-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saintpartner.Boss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
